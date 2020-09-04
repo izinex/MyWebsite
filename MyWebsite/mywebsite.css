@@ -2,6 +2,15 @@ body {
 	background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
 	
 }
+
+img.logo {
+
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .profilepic {
 	border-radius: 50%;
 	width: 125px;
@@ -27,10 +36,10 @@ a.tab.navbar-nav.nav-link{
 	
 }
 #pizon{
-	text-align: center;
+	justify-content: flex-start;
+	text-shadow: 2px 4px 6px #6B6769;
 	padding: 2;
-	margin: 1;
-	text-transform: uppercase;
+	margin-top: 2rem;
 	font-size: 2rem;
 	color: white;
 	font-weight: 10px
@@ -44,6 +53,7 @@ a.tab.navbar-nav.nav-link{
 }
 
 a.maintab {
+	display: inline-block;
 	font-family: "Helvetica, sans-serif";
 	transition: all .4s ease-in-out;
 	font-size: 3rem;
@@ -59,11 +69,14 @@ a.maintab:nth-child:hover ~ .linetabs {
 	background: none;
 }
 
-.linetabs {
+hr.my-4.line {
 	padding-bottom: 10px;
+	border-bottom: solid black;
 	background-color: #FFF	
 	width: 125px;
 	transition: all .4s ease-in-out;
 }
 
+.lead {
 
+}
